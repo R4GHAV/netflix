@@ -1,7 +1,7 @@
 window.onscroll = function() {myFunction()};
 
 function myFunction() {
-  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+  if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 50) {
     document.getElementById("navv").style.backgroundColor = 'rgba('+13+','+ 13+','+ 13+','+ 1+')';
   } else {
     document.getElementById("navv").style.backgroundColor = 'rgba('+13+','+ 13+','+ 13+','+ 0.01+')';
