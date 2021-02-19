@@ -6,7 +6,8 @@ function myFunction() {
   } else {
     document.getElementById("navv").style.backgroundColor = 'rgba('+13+','+ 13+','+ 13+','+ 0.01+')';
   }
-}
+} 
+// Mute button 
 function mute() {
   var video=document.querySelector('.vid');
   if(video.muted === true){
